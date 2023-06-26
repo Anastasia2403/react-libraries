@@ -1,0 +1,21 @@
+.addBook__wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.addBook__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.addBook__button.button {
+  margin: 10px;
+}

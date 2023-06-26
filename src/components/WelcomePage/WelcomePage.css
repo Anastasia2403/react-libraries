@@ -1,0 +1,54 @@
+.welcome__container {
+  width: 100%;
+  height: 100vh;
+  background-color: #555;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome__title {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
+
+.welcome__subtitle {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.welcome__buttons {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.welcome__button.button {
+  border-radius: 50%;
+  margin: 10px;
+  width: 170px;
+  height: 150px;
+}
+
+.password-prompt {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  height: 150px;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}

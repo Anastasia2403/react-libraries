@@ -1,0 +1,19 @@
+@import url(./components/Header/Header.css);
+@import url(./components/BooksPage/BooksPage.css);
+@import url(./components/AddEditBook/AddEditBok.css);
+@import url(./components/WelcomePage/WelcomePage.css);
+@import url(./components/SearchBar/SearchBar.css);
+@import url(./components/Pagination/Pagination.css);
+@import url(./components/AddBook/AddBook.css);
+@import url(./components/VisitorsPage/VisitorsPage.css);
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
